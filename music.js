@@ -1,5 +1,5 @@
 const audio1 = new Audio('audio/dada-01.mp3');
-const audio2 = new Audio('audio/dada-02.wav');
+const audio2 = new Audio('audio/dada-02.mp3');
 
 const btn1 = document.getElementById('song-01');
 const btn2 = document.getElementById('song-02');
