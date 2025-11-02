@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Circular Taiwan — EcoMetrics Dashboard 2025</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Mapbox -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+
+  <!-- ECharts -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Music -->
+  <script src="music.js" defer></script>
+
+</head>
+<body>
+  <div class="layout">
+
+    <div class="panel-head-row">
+      <div class="project-header">
+        <div class="project-eyebrow">Interaction Design and Programming in a Smart Space</div>
+        <div class="panel-title">EcoMetrics Dashboard 2025</div>
+      </div>
+      <div class="project-header align-end">
+        <div class="project-eyebrow">click to play</div>
+        <div class="panel-head-row">
+          <div class="music-icon">&#9836; &#9951;</div>
+          <div class="music-button" id="song-01"></div>
+          <div class="music-button" id="song-02"></div>
+          <div class="music-icon" id="pause-icon">&#9208;</div>
+        </div>
+      </div>
+    </div>
+    
+    <h1 class="h1Huge">CIR&#8635;ULAR <br>TAIWAN</h1>
+
+    <div class="note-block panel introPanel">
+      <div class="note-head">Why Taiwan’s Recycling Story Matters Today</div>
+      <div class="note-text">
+      This EcoMetrics Dashboard explores how Taiwan manages its waste and recycling systems through interactive data visualizations. Taiwan is often recognized as a global success story in recycling, achieving one of the highest recycling rates in the world after transforming from the “Garbage Island” of the 1990s. In an era of climate change, limited land resources, and increasing waste production, Taiwan's provides timely lessons for sustainable urban planning and environmental policy. Understanding these metrics is helpful for shaping a zero-waste future in today’s world.
+      </div>
+    </div>
+
+    <!-- ========== CAMI'S PANEL ========== -->
+    <main class="maincols">
+
+      <!-- LEFT COLUMN -->
+      <section class="panel pick-col">
+        <div class="panel-head-row">
+          <div class="panel-title">Countries</div>
+          <div class="panel-sub">Click to compare →</div>
+        </div>
+
+        <ul class="country-list" id="countryList"></ul>
+
+        <div class="note-block">
+          <div class="note-head">What are we comparing?</div>
+          <div class="note-text">
+            How household trash is handled: landfill, burning / incineration, and recycling.
+            We also track recycling %, and kg of waste generated per person per day.
+          </div>
+          <div class="note-source">Source: public waste stats (class demo data)</div>
+        </div>
+      </section>
+
+      <!-- RIGHT COLUMN -->
+      <section class="panel chart-col">
+        <div class="project-header">
+          <div class="project-title">How trash is handled in each country</div>
+          <div class="project-source">Numbers simplified for class · not official reporting</div>
+          <!-- <div class="project-eyebrow">/ global household waste dashboard</div> -->
+        </div>
+
+        <div class="panel-head-row">
+          <div class="panel-title" id="countryTitle">Country name</div>
+          <div class="panel-sub" id="countrySubtitle">2015–2020 · recycling trend + latest breakdown</div>
+        </div>
+
+        <div class="chart-grid">
+          <div class="chart-box">
+            <div class="chart-box-head">Latest waste breakdown</div>
+            <div id="breakdownChart" class="chart-canvas"></div>
+            <div class="chart-legend-row" id="breakdownLegend"></div>
+          </div>
+
+          <div class="chart-box">
+            <div class="chart-box-head">Recycling rate over time</div>
+            <div id="trendChart" class="chart-canvas"></div>
+          </div>
+        </div>
+
+        <div class="quick-stats-row">
+          <div class="stat-block">
+            <div class="stat-label">Latest recycle rate</div>
+            <div class="stat-value gradient-num" id="latestPct">--%</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat-label">Waste/person/day</div>
+            <div class="stat-value" id="kgPerPerson">--</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat-note">
+              Higher recycling + lower landfill is considered better.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer">
+      Prototype dashboard by Camila Fatecha.<br>
+    </div>
+
+    <!-- ========== JACKIE'S PANEL ========== -->
+    <div class="maincols">
+      <section class="panel chart-col panelMilk">
+        <div class="panel-head-row">
+          <div class="panel-title">County/City</div>
+          <div class="panel-sub">Click to compare →</div>
+        </div>
+        
+        <div class="project-header">
+          <div class="project-title">General waste generated by executive agencies</div>
+          <div class="project-eyebrow">Source: Ministry of Enviroment</div>
+        </div>
+        
+        <div id="mapJackie"></div>
+      </section>
+      
+      <section class="panel chart-col">
+        <div class="panel-head-row">
+          <div class="place-name panel-title" id="placeNameOverlayJackie">Taiwan</div>
+          <button id="y-mButtonJackie">Change to One-year</button>
+        </div>
+        <div>
+        </div>
+        <div id="lineChartJackie"></div>
+      </section>
+      
+      <div class="note-block panel paragraphPanel">
+        <div class="note-head">City-Level Municipal Waste Trends in Taiwan Summary</div>
+        <div class="note-text">
+        The dataset shows that total municipal waste in Taiwan varies widely by city. Larger cities like Taipei and New Taipei produce the highest volumes of general waste, while smaller cities generate less overall but still require careful management. This emphasizes the importance of city-specific strategies to handle different waste loads effectively.
+        </div>
+      </div>
+
+      <div class="footer">
+        Prototype dashboard by Jacqueline Esbach.<br>
+      </div>
+    </div>
+
+    <!-- ========== JORGE'S PANEL ========== -->
+    <section class="panel chart-col">
+      <div class="project-header">
+        <div class="project-title">Waste Disposal Plants/Sites in Taiwan</div>
+        <div class="project-eyebrow">Source: Ministry of Environment (2012–2025)</div>
+      </div>
+      
+      <div class="chart-overlay">
+        <label><input id="toggleTotalJorge" type="checkbox" checked> Show Total Line</label>
+        <button id="refreshBtnJorge">Refresh Data</button>
+      </div>
+      <div id="chartJorge" class="chart-canvasJorge"></div>
+    </section>
+    
+    <div class="note-block panel halfWidth">
+      <div class="note-head">Rising Pressure on Taiwan’s Waste Management System</div>
+      <div class="note-text">
+        Despite stable incineration capacity, Taiwan has recently re-expanded its landfill and composting sites, suggesting growing pressure on the waste management system and a need for more sustainable long-term solutions.
+      </div>
+    </div>
+
+    <div class="footer">
+      Prototype dashboard by Jorge Valle.<br>
+    </div>
+
+    <!-- ========== 王劭祺'S PANEL ========== -->
+    <div class="maincols">
+      <section class="panel chart-col panelMilk">
+        <div class="panel-head-row">
+          <div class="panel-title">County/City</div>
+          <div class="panel-sub">Click to compare →</div>
+        </div>
+        <div class="project-header">
+          <div class="project-title">Monthly Recycling by Category (Metric Tons)</div>
+          <div class="project-eyebrow">(2025)</div>
+        </div>
+        <div id="mapMilk"></div>
+      </section>
+
+      <section class="panel chart-col">
+        <div id="chart1Milk"></div>
+      </section>
+
+      <div class="note-block panel paragraphPanel">
+        <div class="note-head">Recycling Trends and Local Insights in Taiwan</div>
+        <div class="note-text">
+        The overall recycling volume across Taiwan’s cities shows significant differences in specific material categories. These variations reflect each city’s distinct industries and recycling needs, and may also indicate potential waste of certain resources.
+        </div>
+      </div>
+
+      <div class="footer">
+        Prototype dashboard by 王劭祺.<br>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="panel-head-row">
+          Visual style based on sustainability reporting panels. <br>
+          Monorepo Migration by Lucas.
+        <div class="panel-sub"><br>MIDTERM <span>Group 2</span></div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

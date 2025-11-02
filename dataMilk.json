@@ -1,0 +1,443 @@
+[
+    {
+        "station": "Chiayi City",
+        "coord": [
+            120.44860360915051,
+            23.479565651893306
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 2927,
+                "metal": 1977,
+                "plastic and rubber products": 1090,
+                "glass products": 564,
+                "battery": 110
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 2894,
+                "metal": 1942,
+                "plastic and rubber products": 1075,
+                "glass products": 566,
+                "battery": 110
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 2795,
+                "metal": 1919,
+                "plastic and rubber products": 1021,
+                "glass products": 570,
+                "battery": 114
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 2842,
+                "metal": 1936,
+                "plastic and rubber products": 1036,
+                "glass products": 571,
+                "battery": 111
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 2935,
+                "metal": 1949,
+                "plastic and rubber products": 1051,
+                "glass products": 574,
+                "battery": 112
+            }
+        ]
+    },
+    {
+        "station": "Keelung City",
+        "coord": [
+            121.75879814693634,
+            25.122712793985833
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 6074,
+                "metal": 2334,
+                "plastic and rubber products": 782,
+                "glass products": 453,
+                "battery": 12
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 5957,
+                "metal": 2313,
+                "plastic and rubber products": 836,
+                "glass products": 492,
+                "battery": 8
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 6149,
+                "metal": 2159,
+                "plastic and rubber products": 799,
+                "glass products": 467,
+                "battery": 8
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 6343,
+                "metal": 2003,
+                "plastic and rubber products": 765,
+                "glass products": 474,
+                "battery": 10
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 6354,
+                "metal": 1999,
+                "plastic and rubber products": 781,
+                "glass products": 471,
+                "battery": 7
+            }
+        ]
+    },
+    {
+        "station": "Hsinchu City",
+        "coord": [
+            120.97224561549886,
+            24.814525427759172
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 8007,
+                "metal": 1431,
+                "plastic and rubber products": 1250,
+                "glass products": 380,
+                "battery": 51
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 8015,
+                "metal": 1434,
+                "plastic and rubber products": 1257,
+                "glass products": 449,
+                "battery": 51
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 8028,
+                "metal": 1442,
+                "plastic and rubber products": 1252,
+                "glass products": 428,
+                "battery": 53
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 8093,
+                "metal": 1453,
+                "plastic and rubber products": 1268,
+                "glass products": 501,
+                "battery": 120
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 8094,
+                "metal": 1454,
+                "plastic and rubber products": 1250,
+                "glass products": 801,
+                "battery": 116
+            }
+        ]
+    },
+    {
+        "station": "New Taipei City",
+        "coord": [
+            121.41917145283142,
+            25.03051831117614
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 46828,
+                "metal": 28556,
+                "plastic and rubber products": 14586,
+                "glass products": 3827,
+                "battery": 268
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 45774,
+                "metal": 28284,
+                "plastic and rubber products": 12061,
+                "glass products": 3586,
+                "battery": 298
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 44917,
+                "metal": 29913,
+                "plastic and rubber products": 12160,
+                "glass products": 4103,
+                "battery": 304
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 46580,
+                "metal": 30003,
+                "plastic and rubber products": 11571,
+                "glass products": 3702,
+                "battery": 315
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 47600,
+                "metal": 32211,
+                "plastic and rubber products": 12853,
+                "glass products": 4048,
+                "battery": 346
+            }
+        ]
+    },
+    {
+        "station": "Taoyuan City",
+        "coord": [
+            121.27877828339712,
+            24.992687837724045
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 25476,
+                "metal": 9436,
+                "plastic and rubber products": 6700,
+                "glass products": 7943,
+                "battery": 85
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 24964,
+                "metal": 9228,
+                "plastic and rubber products": 6986,
+                "glass products": 7338,
+                "battery": 74
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 24918,
+                "metal": 9357,
+                "plastic and rubber products": 7095,
+                "glass products": 7676,
+                "battery": 78
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 25816,
+                "metal": 9253,
+                "plastic and rubber products": 7307,
+                "glass products": 7933,
+                "battery": 86
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 26400,
+                "metal": 9512,
+                "plastic and rubber products": 7558,
+                "glass products": 7966,
+                "battery": 116
+            }
+        ]
+    },
+    {
+        "station": "Taichung City",
+        "coord": [
+            120.69454827004587,
+            24.14602223757992
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 39063,
+                "metal": 8084,
+                "plastic and rubber products": 8084,
+                "glass products": 4755,
+                "battery": 314
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 38284,
+                "metal": 8950,
+                "plastic and rubber products": 8950,
+                "glass products": 4427,
+                "battery": 335
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 39949,
+                "metal": 9204,
+                "plastic and rubber products": 9204,
+                "glass products": 4676,
+                "battery": 329
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 40948,
+                "metal": 18053,
+                "plastic and rubber products": 8523,
+                "glass products": 4917,
+                "battery": 396
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 40289,
+                "metal": 19276,
+                "plastic and rubber products": 8986,
+                "glass products": 4566,
+                "battery": 472
+            }
+        ]
+    },
+    {
+        "station": "Taipei City",
+        "coord": [
+            121.57246298950322,
+            25.029955347270636
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 35235,
+                "metal": 19967,
+                "plastic and rubber products": 1208,
+                "glass products": 109,
+                "battery": 179
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 32192,
+                "metal": 18131,
+                "plastic and rubber products": 1218,
+                "glass products": 74,
+                "battery": 176
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 36592,
+                "metal": 19461,
+                "plastic and rubber products": 1237,
+                "glass products": 78,
+                "battery": 180
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 29911,
+                "metal": 18592,
+                "plastic and rubber products": 1141,
+                "glass products": 127,
+                "battery": 168
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 31670,
+                "metal": 17938,
+                "plastic and rubber products": 1220,
+                "glass products": 95,
+                "battery": 177
+            }
+        ]
+    },
+    {
+        "station": "Tainan City",
+        "coord": [
+            120.28393550896713,
+            22.99764034385341
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 26044,
+                "metal": 11316,
+                "plastic and rubber products": 5796,
+                "glass products": 5417,
+                "battery": 224
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 26648,
+                "metal": 11578,
+                "plastic and rubber products": 5930,
+                "glass products": 5542,
+                "battery": 229
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 25791,
+                "metal": 11206,
+                "plastic and rubber products": 5739,
+                "glass products": 5364,
+                "battery": 222
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 28294,
+                "metal": 12293,
+                "plastic and rubber products": 6295,
+                "glass products": 5885,
+                "battery": 244
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 29468,
+                "metal": 12803,
+                "plastic and rubber products": 6557,
+                "glass products": 6130,
+                "battery": 253
+            }
+        ]
+    },
+    {
+        "station": "Kaohsiung City",
+        "coord": [
+            120.30168264685193,
+            22.629152517356744
+        ],
+        "value": [
+            {
+                "date": "2025-03",
+                "paper and paper products": 49871,
+                "metal": 14559,
+                "plastic and rubber products": 5855,
+                "glass products": 4648,
+                "battery": 367
+            },
+            {
+                "date": "2025-04",
+                "paper and paper products": 46820,
+                "metal": 14917,
+                "plastic and rubber products": 5726,
+                "glass products": 4321,
+                "battery": 377
+            },
+            {
+                "date": "2025-05",
+                "paper and paper products": 47682,
+                "metal": 14553,
+                "plastic and rubber products": 5700,
+                "glass products": 4062,
+                "battery": 372
+            },
+            {
+                "date": "2025-06",
+                "paper and paper products": 49155,
+                "metal": 14524,
+                "plastic and rubber products": 5862,
+                "glass products": 4453,
+                "battery": 374
+            },
+            {
+                "date": "2025-07",
+                "paper and paper products": 47945,
+                "metal": 14686,
+                "plastic and rubber products": 6239,
+                "glass products": 4399,
+                "battery": 369
+            }
+        ]
+    }
+]

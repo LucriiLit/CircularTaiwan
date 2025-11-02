@@ -1,0 +1,16 @@
+[
+  { "year": "2012", "total": 183, "incineration": 26, "landfill": 103, "composting": 49, "stockpiling": 5 },
+  { "year": "2013", "total": 185, "incineration": 25, "landfill": 104, "composting": 53, "stockpiling": 3 },
+  { "year": "2014", "total": 172, "incineration": 25, "landfill": 98, "composting": 47, "stockpiling": 2 },
+  { "year": "2015", "total": 170, "incineration": 25, "landfill": 91, "composting": 50, "stockpiling": 4 },
+  { "year": "2016", "total": 165, "incineration": 25, "landfill": 87, "composting": 50, "stockpiling": 3 },
+  { "year": "2017", "total": 161, "incineration": 25, "landfill": 82, "composting": 49, "stockpiling": 5 },
+  { "year": "2018", "total": 154, "incineration": 25, "landfill": 68, "composting": 56, "stockpiling": 5 },
+  { "year": "2019", "total": 152, "incineration": 25, "landfill": 68, "composting": 55, "stockpiling": 4 },
+  { "year": "2020", "total": 151, "incineration": 25, "landfill": 68, "composting": 54, "stockpiling": 4 },
+  { "year": "2021", "total": 148, "incineration": 25, "landfill": 67, "composting": 52, "stockpiling": 4 },
+  { "year": "2022", "total": 149, "incineration": 25, "landfill": 67, "composting": 53, "stockpiling": 4 },
+  { "year": "2023", "total": 161, "incineration": 25, "landfill": 76, "composting": 52, "stockpiling": 8 },
+  { "year": "2024", "total": 192, "incineration": 25, "landfill": 106, "composting": 56, "stockpiling": 5 },
+  { "year": "2025-Jun", "total": 189, "incineration": 25, "landfill": 107, "composting": 52, "stockpiling": 5 }
+]
