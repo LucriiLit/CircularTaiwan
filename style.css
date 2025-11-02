@@ -26,7 +26,10 @@ body {
   min-height: 100vh;
   background:
     radial-gradient(800px 400px at 15% 10%, rgba(166,213,54,0.08), transparent 60%),
-    radial-gradient(600px 300px at 80% 60%, rgba(110,190,136,0.08), transparent 60%),
+    radial-gradient(800px 400px at 70% 32%, rgba(166,213,54,0.08), transparent 60%),
+    radial-gradient(600px 300px at 80% 50%, rgba(110,190,136,0.08), transparent 60%),
+    radial-gradient(800px 400px at 80% 75%, rgba(166,213,54,0.08), transparent 60%),
+    radial-gradient(800px 400px at 20% 98%, rgba(110,190,136,0.08), transparent 60%),
     var(--bg-dark);
 }
 
